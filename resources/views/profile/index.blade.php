@@ -16,7 +16,7 @@
                 <h3 class="profile-username text-center">{{ Auth::user()->name }}</h3>
 
                 <p class="text-muted text-center">{{ Auth::user()->email }}</p>
-                <p class="text-muted text-center">Balance : Rp. {{ Auth::user()->balance }}</p>
+                <p class="text-muted text-center">Balance : Rp. {{ number_format(Auth::user()->balance) }}</p>
                 <ul class="list-group list-group-unbordered mb-3">
                 <div class="card-body">
                     <form role="form" method="post" action="{{url('profile/update')}}">

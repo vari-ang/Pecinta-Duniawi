@@ -18,7 +18,8 @@
 //     return [
 //         'name' => $faker->name,
 //         'email' => $faker->unique()->safeEmail,
-//         'password' => $password ?: $password = bcrypt('1234'),
+        // 'password' => $password ?: $password = bcrypt('1234'),
+        // 'balance' => $faker->numberBetween(100000, 25000000);
 //         'remember_token' => str_random(10),
 //     ];
 // });

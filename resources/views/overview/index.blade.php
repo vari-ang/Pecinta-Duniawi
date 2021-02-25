@@ -38,11 +38,14 @@
                     <p class="card-text">( {{$detailPemasukan->kategori->nama}} )</p>
                   @else <br>
                   @endif
-                  @if(!empty($detailPemasukan->pivot->foto))
+                  {{-- @if(!empty($detailPemasukan->pivot->foto))
                       <img class="img-circle img-bordered-sm" 
                           src="{{ asset('/images/imgpemasukan/'. $detailPemasukan->pivot->foto) }}" 
                           style="width:75px;height:75px;">
-                  @endif
+                  @endif --}}
+                  <img class="img-circle img-bordered-sm" 
+                          src="{{ asset('/images/gain.png') }}" 
+                          style="width:50px;height:50px;">
                   <p class="card-text">Rp. + {{ number_format($detailPemasukan->pivot->nominal) }}</p>
                   <p class="card-text">{{$detailPemasukan->pivot->keterangan}}</p>
                   <a href="overviews/pemasukan/{{ $detailPemasukan->pivot->id }}/edit" class="btn btn-info">Edit</a>
@@ -71,11 +74,14 @@
                     <p class="card-text">( {{$detailPengeluaran->kategori->nama}} )</p>
                   @else <br>
                   @endif
-                @if(!empty($detailPengeluaran->pivot->foto))
+                {{-- @if(!empty($detailPengeluaran->pivot->foto))
                     <img class="img-circle img-bordered-sm" 
                         src="{{ asset('/images/imgpengeluaran/' . $detailPengeluaran->pivot->foto) }}" 
                         style="width:75px;height:75px;">
-                @endif
+                @endif --}}
+                <img class="img-circle img-bordered-sm" 
+                          src="{{ asset('/images/spending.png') }}" 
+                          style="width:50px;height:50px;">
                 <p class="card-text">Rp. - {{ number_format($detailPengeluaran->pivot->nominal) }}</p>
                 <p class="card-text">{{ $detailPengeluaran->pivot->keterangan }}</p>
 

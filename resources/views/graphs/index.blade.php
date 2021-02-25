@@ -180,7 +180,7 @@
         
         $.ajax({
             type: 'GET',
-            url: `${window.location.pathname}/show-comparison/00`,
+            url: `${window.location.href}/show-comparison/00`,
             data: {},
             success: function(response) { 
                 showComparison(response);
@@ -195,7 +195,7 @@
             var selectedIx = $(this).find(':selected').val();
             $.ajax({
                 type: 'GET',
-                url: `${window.location.pathname}/show-comparison/${selectedIx}`,
+                url: `${window.location.href}/show-comparison/${selectedIx}`,
                 data: {},
                 success: function(response) {
                     showComparison(response);
@@ -249,7 +249,7 @@
         
         $.ajax({
             type: 'GET',
-            url: `${window.location.pathname}/show-spending-pie/00`,
+            url: `${window.location.href}/show-spending-pie/00`,
             data: {},
             success: function(response) {
                 showSpendingPie(response);
@@ -264,7 +264,7 @@
             var selectedIx = $(this).find(':selected').val();
             $.ajax({
                 type: 'GET',
-                url: `${window.location.pathname}/show-spending-pie/${selectedIx}`,
+                url: `${window.location.href}/show-spending-pie/${selectedIx}`,
                 data: {},
                 success: function(response) {
                     showSpendingPie(response);
@@ -319,7 +319,7 @@
         
         $.ajax({
             type: 'GET',
-            url: `${window.location.pathname}/show-earning-pie/00`,
+            url: `${window.location.href}/show-earning-pie/00`,
             data: {},
             success: function(response) {
                 showEarningPie(response);
@@ -334,7 +334,7 @@
             var selectedIx = $(this).find(':selected').val();
             $.ajax({
                 type: 'GET',
-                url: `${window.location.pathname}/show-earning-pie/${selectedIx}`,
+                url: `${window.location.href}/show-earning-pie/${selectedIx}`,
                 data: {},
                 success: function(response) {
                     showEarningPie(response);

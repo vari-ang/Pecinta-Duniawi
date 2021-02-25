@@ -15,6 +15,7 @@ class UpdateTabunganBerencanasTable extends Migration
     {
         Schema::table('tabungan_berencanas', function (Blueprint $table) {
             $table->string('foto');
+            $table->boolean('reminder')->nullable();
         });
     }
 
@@ -27,6 +28,7 @@ class UpdateTabunganBerencanasTable extends Migration
     {
         Schema::table('tabungan_berencanas', function (Blueprint $table) {
             $table->dropColumn('foto');
+            $table->dropColumn('reminder');
         });
     }
 }

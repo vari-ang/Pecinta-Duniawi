@@ -99,7 +99,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </div>
             <div class="info">
               <a href="{{ url('profile') }}" class="d-block">{{ Auth::user()->name }}</a>
-              <p>Balance : Rp. {{Auth::user()->balance}}</p>
+              <p>Balance : Rp. {{ number_format(Auth::user()->balance) }}</p>
             </div>
           </div>
     
@@ -210,12 +210,13 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <script src="{{ asset("/AdminLTE-3.0.0-rc.5/dist/js/adminlte.min.js") }}"></script>
     <script>
       $(function () {
-        var path = window.location.pathname;
-        var url = path.substring(0, path.search('public')) + 'public';
+        // var path = window.location.href;
+        // var url = path.substring(0, path.search('public')) + 'public';
+        // console.log(url);
 
         $.ajax({
             type: 'GET',
-            url: `${url}/saving-reminder`,
+            url: `/saving-reminder`,
             data: {},
             success: function(response) {
                 // Reminders header

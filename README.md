@@ -1,7 +1,7 @@
 ### Gambaran Sistem
 
 Aplikasi ini secara umum akan berjenis pencatatan keuangan, dengan berbagai fitur pengelompokkan, yang digunakan untuk memisah jenis inputan yang ada.
-Aplikasi perencanaan uang ini berbasis web dan dibuat dengan menggunakan framework Laravel (PHP) dengan database MySQL.
+Aplikasi perencanaan uang ini berbasis web dan dibuat dengan menggunakan framework Laravel5.8 dengan database MySQL. Aplikasi ini membutuhkan versi PHP 7.2.
 
 ### Akun Dalam Aplikasi
 - Hanya terdapat sebuah jenis akun, dimana akun ini adalah akun tiap penggunanya dan dapat melakukan konfigurasi jenis pengeluaran dan pemasukkan.

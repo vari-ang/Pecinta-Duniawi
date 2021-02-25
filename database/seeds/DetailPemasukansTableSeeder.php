@@ -11,6 +11,6 @@ class DetailPemasukansTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(App\DetailPemasukan::class, 25)->create();
+        factory(App\DetailPemasukan::class, 125)->create();
     }
 }

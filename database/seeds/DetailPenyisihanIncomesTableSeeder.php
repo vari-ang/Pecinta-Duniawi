@@ -11,6 +11,6 @@ class DetailPenyisihanIncomesTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(App\DetailPenyisihanIncome::class, 25)->create();
+        factory(App\DetailPenyisihanIncome::class, 125)->create();
     }
 }

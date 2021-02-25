@@ -18,3 +18,19 @@ Aplikasi perencanaan uang ini berbasis web dan dibuat dengan menggunakan framewo
 - Sistem juga mempunyai fitur bernama tabungan berencana, dimana apabila pengguna ingin mengumpulkan uang untuk membeli atau melakukan sesuatu, maka hal ini dapat diset sebagai target, dengan nominal yang dibutuhkan.
 - Lalu pengguna dapat melakukan pengaturan reminder untuk menyisihkan ​income ​ke dalam tabungan berencana tersebut. Setiap saat pengguna juga dapat melihat sudah sampai berapa persen tabungan berencana yang berjalan saat ini.
 - Export dalam bentuk Excel dan PDF
+
+### App Screenshots
+##### Home
+![Home](https://github.com/vari8/Pecinta-Duniawi/blob/master/resources/screenshots/graphs.png)
+
+##### Overviews
+![Overviews](https://github.com/vari8/Pecinta-Duniawi/blob/master/resources/screenshots/overviews.png)
+
+##### Transactions
+![Transactions](https://github.com/vari8/Pecinta-Duniawi/blob/master/resources/screenshots/transactions.png)
+
+##### Graphs
+![Graphs](https://github.com/vari8/Pecinta-Duniawi/blob/master/resources/screenshots/graphs.png)
+
+##### Saving Plans
+![Saving Plans](https://github.com/vari8/Pecinta-Duniawi/blob/master/resources/screenshots/saving%20plan%20-%202.png)

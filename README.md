@@ -21,7 +21,7 @@ Aplikasi perencanaan uang ini berbasis web dan dibuat dengan menggunakan framewo
 
 ### App Screenshots
 ##### Home
-![Home](https://github.com/vari8/Pecinta-Duniawi/blob/master/resources/screenshots/graphs.png)
+![Home](https://github.com/vari8/Pecinta-Duniawi/blob/master/resources/screenshots/home.png)
 
 ##### Overviews
 ![Overviews](https://github.com/vari8/Pecinta-Duniawi/blob/master/resources/screenshots/overviews.png)
